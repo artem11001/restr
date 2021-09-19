@@ -1,6 +1,6 @@
- Копирование/поиск/замена в дереве каталогов
- from mod.visitor import CpallVisitor, SearchVisitor, ReStrVisitor
- from mod.log import LogFile
+ Копирование/поиск/замена в дереве каталогов<br>
+ from mod.visitor import CpallVisitor, SearchVisitor, ReStrVisitor<br>
+ from mod.log import LogFile<br><br>
  
  Поиск строк в файлах каталогов<br>
  MyObjS = SearchVisitor(serchS='http://mysite.ru', extFile='.html .htm .py') <br>
